@@ -15,15 +15,13 @@ cask "flclash" do
   
     app "FlClash.app"
   
-    uninstall quit: "com.follow.clash",
-              delete: [
-                "~/Library/LaunchAgents/FlClash.plist",
-              ]
+    uninstall quit: "com.follow.clash"
 
     zap trash: [
       "~/Library/Application Support/com.follow.clash",
       "~/Library/Caches/com.follow.clash",
       "~/Library/Logs/FlClash",
       "~/Library/Preferences/com.follow.clash.plist",
+      "~/Library/LaunchAgents/FlClash.plist"
     ]
   end
