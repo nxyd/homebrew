@@ -21,7 +21,6 @@ cask "flclash" do
       "~/Library/Application Support/com.follow.clash",
       "~/Library/Caches/com.follow.clash",
       "~/Library/Logs/FlClash",
-      "~/Library/Preferences/com.follow.clash.plist",
-      "~/Library/LaunchAgents/FlClash.plist"
+      "~/Library/Preferences/com.follow.clash.plist"
     ]
   end
